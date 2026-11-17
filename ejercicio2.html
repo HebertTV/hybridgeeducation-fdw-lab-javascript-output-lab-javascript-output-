@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración de Output en Javascript</title>
+</head>
+<body>
+    
+    <button onclick="Alerta()">Mostrar nombre</button>
+    <p id="myParagraph"></p>
+    <button onclick="UpdateParagraph()">Actualizar párrafo</button>
+
+    <script>
+        function UpdateParagraph() {
+            document.getElementById("myParagraph").innerHTML = "¡Texto actualizado con Javascript!"
+        }
+        function Alerta() {
+            alert("¡Hola, mundo!");
+        }
+    </script>
+
+</body>
+</html>
